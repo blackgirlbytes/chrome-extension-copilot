@@ -44,6 +44,7 @@ Permissions for the extension are: storage, tabs, browsingData
 
 ### Create a service worker
 
+- I had no clue why I needed to make a service worker. I learned about it from Twitch stream vieweres. I asked Copilot Chat and ChatGPT about what it is and why I would need it. I used Copilot labs to give me an explanation of deifferent parts of the code. 
 - Create file called background.js
 - Background.js is our service worker. Write a comment at the top of my life that says,
 ```js

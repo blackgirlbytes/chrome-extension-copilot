@@ -1,0 +1,22 @@
+<!-- This is the HTML for a Chrome extension. It should have a button that says clear cache. It should be connected to a CSS file called styles.css and a javascript file called popup.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Clear Cache</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Clear Cache</h1>
+    <button class="clearCache" id="allHistory">All History</button>
+    <button class="clearCache" id="pastMonth">Past Month</button>
+    <button class="clearCache" id="pastWeek">Past Week</button>
+    <button class="clearCache" id="pastDay">Past Day</button>
+    <button class="clearCache" id="pastHour">Past Hour</button>
+    <button class="clearCache" id="pastMinute">Past Minute</button>
+    <!-- paragraph with data when last cleared-->
+    <p id="lastCleared"></p>
+    <script src="popup.js"></script>
+  </body>
+</html>

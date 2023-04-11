@@ -1,0 +1,53 @@
+/* Style the Chrome extension's popup to be wider and taller 
+Use accessible friendly colors and fonts
+Make h1 elements legible 
+Highlight when buttons are hovered over
+Highlight when buttons are clicked
+Align buttons in a column and center them but space them out evenly
+Make paragraph bold and legible
+*/
+
+body {
+  width: 400px;
+  height: 400px;
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+}
+/* Align buttons in a column and center them but space them out evenly */
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
